@@ -1,0 +1,52 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: cadetblue;
+    background-image: url('../Images/dog3.jpeg');
+    background-size: cover;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 320px;
+    border-radius: 40px;
+    background-image: url('../Images/landing2.png');
+    background-size: cover;
+    
+}
+
+.welcome{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-end; */
+    margin-top: 80px;
+    color: wheat;
+}
+
+.title{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.btn{
+    background-color: lightseagreen;
+    border-radius: 10px;
+    width: 90px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    box-shadow: 50px lightslategray;
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    background-color: lightslategray;
+}

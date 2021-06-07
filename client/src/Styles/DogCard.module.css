@@ -1,0 +1,25 @@
+.dogCard{
+    width: max-content;
+    background-color: lightslategrey;
+    border-radius: 15px;
+    margin: 10px;
+}
+.titleContainer{
+    width: 30%;
+    margin: 0 auto;
+}
+.imgContainer{
+    width: max-content;
+    border-radius: 30px;
+    box-shadow: 4px 4px 16px 6px gray;
+    margin: 0 auto;
+}
+.dogImg{
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    
+}
+/* .title{
+    width: 30%;
+} */

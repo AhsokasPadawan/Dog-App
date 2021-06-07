@@ -1,0 +1,29 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    color: azure;
+    width: 100%;
+    height: 60px;
+}
+.logo{
+    display: flex;
+    justify-self:left;
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+}
+
+.navLink{
+    align-self: center;
+    margin-right: 20px;
+}
+
+.link {
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+}
